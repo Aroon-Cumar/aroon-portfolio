@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Aroon Cumar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Aroon Cumar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-link">
+          <li><a href="#about" onclick="togglemenu()">About</a></li>
+          <li><a href="#Skills" onclick="togglemenu()">Skills</a></li>
+          <li><a href="#project" onclick="togglemenu()">Project</a></li>
+          <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section-pic-container">
+        <img src="proffileimg - Copy.jpg" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Aroon</h1>
+        <p class="section__text__p2">Web and Mobile Developer</p>
+        <div class="button-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('newresume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div class="social-container">
+          <img
+            src="linkedin (1).png"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/aroon-cumar-67698a272'"
+          />
+          &nbsp;
+          <img
+            src="behance.png"
+            class="icon"
+            onclick="location.href='https://www.behance.net/aroontom'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to know more</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="section__pic__container">
+          <img src="sideprofile.jpg" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container detail-box">
+              <img src="reputation.png" class="icon" />
+              <h3>Fresher</h3>
+              <p>
+                Mobile Development<br />Web Development<br>
+              </p>
+            </div>
+            <div class="details-container detail-box">
+              <img src="open-book.png" class="icon" />
+              <h3>Education</h3>
+              <p>BCA Bachelor's Degree<br />Chennai,Indai</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I'm Aroon, a passionate professional with a solid
+              foundation in Microsoft Power Apps, Python, design, and SQL. I
+              bring practical experience from a two-month internship in Flex,
+              where I honed my skills and contributed to meaningful
+              projects.Check out my LinkedIn for showcased projects. Actively
+              seeking job opportunities to contribute my skills and enthusiasm
+              to a dynamic team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Skills">
+        <p class="section__text__p1">Explore my</p>
+        <h1 class="title">Skills</h1>
+        <div class="skill-detail-container">
+            <div class="about-container">
+                <div class="details-container detail-box2">
+                    <h2 class="skill-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Advance</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>React.JS</h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>BootStrap</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>PowerFx</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+
+                    </div>
+                </div>
+                <div class="details-container detail-box2">
+                    <h2 class="skill-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Python</h3>
+                            <p>Advance</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Json</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Oracle</h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>PostgreSQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>My SQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="about-container">
+                <div class="details-container detail-box2">
+                    <h2 class="skill-sub-title">Tools</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>PowerApps</h3>
+                            <p>Power Platform</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>VS Code</h3>
+                            <p>Code Editor</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>Version control</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Xampp</h3>
+                            <p>Web Server</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container detail-box2">
+                    <h2 class="skill-sub-title">Soft Skills</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Communication</h3>
+                            <p>Engish,Tamil</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Teamwork</h3>
+                            <p>Collabrative</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Fast Learner</h3>
+                            <p>Quick Witted</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checklist.png" alt="" class="icon">
+                        <div>
+                            <h3>Creativity</h3>
+                            <p>Innovative</p>
+                        </div>
+                    </article>
+                    
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <p class="section__text__p1">Browse my recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skill-detail-container">
+            <div class="about-container about2">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="cookerimg.jpg" class="project-img"></img>
+                </div>
+                <h2 class="skill-sub-title project-title">Project One</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/posts/aroon-cumar-67698a272_food-fooddelivery-activity-7137272520960839680-dDnD?utm_source=share&utm_medium=member_desktop'">View</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="superwar.jpg" class="project-img"></img>
+                </div>
+                <h2 class="skill-sub-title project-title">Project Two</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/posts/aroon-cumar-67698a272_gamedev-superwar-activity-7140355827516751872-fVLu?utm_source=share&utm_medium=member_desktop'">View</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="arronflix.jpg" class="project-img"></img>
+                </div>
+                <h2 class="skill-sub-title project-title">Project Three</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/posts/aroon-cumar-67698a272_demoproject-uiuxdesign-activity-7141371914056310784-37wJ?utm_source=share&utm_medium=member_desktop'">View</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch </p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" class="icon contact-icon">
+                <p><a href="arooncumar.2004@gmail.com">arooncumar.2004@gmail.com</a></p>
+            </div>
+        
+            <div class="contact-info-container">
+                <img src="linkedin (1).png" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/aroon-cumar-67698a272">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Aroon Cumar.All Rights Deserved </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
