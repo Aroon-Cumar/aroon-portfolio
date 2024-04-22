@@ -49,13 +49,14 @@
     height: 81vh;
     margin-bottom: 0;
   }
-  .about-pic {
-    width: 200px;
-    height: 200px;
-    margin-left:8rem;
-    margin-left:8rem;
+  .about-pic{
     
+    height: 250px;
+    width: 250px;
   }
+  .detail-box{
+    margin-top: 7rem;
+  }  
   article {
     font-size: 1rem;
   }
