@@ -49,6 +49,11 @@
     height: 81vh;
     margin-bottom: 0;
   }
+  .about-pic {
+    width: 21rem;
+    height: 21rem;
+    
+  }
   article {
     font-size: 1rem;
   }
@@ -61,10 +66,11 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container{
-    margin: 0.5rem;
-    
+  .contact-info-upper-container{
+    margin-left: 2  rem;
+    margin-right: 2rem;
   }
+  
   .contact-info-container p,.nav-links li a{
     font-size: 1rem;
   }
@@ -97,6 +103,10 @@
   }
   .text-container{
     text-align: justify;
+    padding:1rem;
+  }
+  .color-container{
+    margin: 0.5rem;
   }
 
 }
