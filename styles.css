@@ -132,7 +132,7 @@ section {
   width: 400px;
   margin: auto 0;
 }
-.section-pic-container img {
+.section-new2-container img {
   border-radius: 100%;
 }
 
@@ -350,4 +350,7 @@ footer{
 }
 footer p{
     text-align: center;
+}
+.section-new-container{
+  border-radius: 1.5rem;
 }
