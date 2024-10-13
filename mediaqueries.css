@@ -54,6 +54,14 @@
     height: 250px;
     width: 250px;
   }
+  .details-container{
+    
+    padding: 1rem;
+  }
+  .section-container{
+    gap:1.5rem;
+    height:80%
+   }
   .detail-box{
     margin-top: 7rem;
   }  
